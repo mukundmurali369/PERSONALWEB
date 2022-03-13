@@ -1,0 +1,129 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(48, 48, 48), black);
+  }
+li{
+    float: right;
+
+  }
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+li a:hover{
+    background-color: rgb(44, 44, 44);
+    border-bottom: 3px solid yellow;
+}
+.logo{
+    color: yellow;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0,0);
+    padding: 10px 15px;
+
+}
+.logo:hover{
+    border: 3px solid yellow;
+
+
+}
+body{
+    margin: 0;
+    background-image: url("yellowback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+
+}
+
+.container{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin:50px 60px 0px  ;
+    border-radius: 20px;
+    border-left: 10px solid yellow;
+    border-right:10px solid yellow;
+    padding: 100px;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+ justify-content: centers;
+    font-family: cursive;
+    text-align: justify;
+    font-size: 18px;
+}
+.heading{
+    margin: 0;
+    color: yellow;
+    font-family: cursive;
+}
+p{
+    color: white;
+}
+.right a{
+    margin-top: 20px;
+    width: 250px;
+   
+    text-decoration: none;
+
+    border-radius: 20px;
+    padding:10px 20px;
+    text-align: center;
+    border: 3px solid yellow;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: yellow;
+}
+.right a:hover{
+    border: 3px solid rgba(0, 0, 0, 0);
+    background-color: yellow;
+    color:black;
+
+}
+.container1{
+    margin: 0;
+    height: 50vh;
+    background-color: black;
+    
+}
+.logos{
+    margin-top: 30px;
+}
+.logos a{
+    color: yellow;
+    border: none;
+    padding:0;
+    margin: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+.logos a:hover{
+    background-color: yellow;
+    color: #000;
+    border: none;
+    padding:10px 15px;
+}
+    
+
+    
+
